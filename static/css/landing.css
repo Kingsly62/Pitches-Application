@@ -40,3 +40,7 @@ button[type=submit]{
     position: absolute;
     margin-left: 40%;
 }
+
+button a{
+    color: red;
+}
