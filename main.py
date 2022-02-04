@@ -6,3 +6,13 @@ app = Flask(__name__)
 @app.route('/')
 def landing():
     return render_template('landing.html')
+
+
+@app.route('/signin')
+def signin():
+    return render_template('signin.html')
+
+
+@app.route('/signup')
+def signup():
+    return render_template('signup.html')
