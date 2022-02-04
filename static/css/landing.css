@@ -9,3 +9,17 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.navigation li{
+    color: brown !important;
+    display: flex !important;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+
+.navigation{
+    display: flex !important;
+    gap: 20%;
+
+}
