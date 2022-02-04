@@ -27,6 +27,10 @@ h1{
 button[type=submit]{
     color: red;
     background-color: green;
+}
 
-
+.button{
+    top: 40%;
+    transform: 0,-40%;
+    position: absolute;
 }
