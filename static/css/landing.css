@@ -23,3 +23,10 @@ h1{
     gap: 5%;
 
 }
+
+button[type=submit]{
+    color: red;
+    background-color: green;
+
+
+}
