@@ -11,11 +11,13 @@ def landing():
     return render_template('landing.html')
 
 
+#login page form
 @app.route('/signin')
 def signin():
     return render_template('signin.html')
 
 
+#register form functions
 @app.route('/signup')
 def signup():
     return render_template('signup.html')

@@ -1,0 +1,22 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+.container{
+    top: 10%;
+    transform: 0,-10%;
+    position: absolute;
+    background-color: darkgrey;
+    width: 70%;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.signup{
+    background-image: url("../Images/newss.jpg");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
