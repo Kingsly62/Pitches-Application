@@ -18,7 +18,7 @@ def signin():
 
 
 #register form functions
-@app.route('/signup')
+@app.route('/signup', method="POST")
 def signup():
     return render_template('signup.html')
 
