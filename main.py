@@ -96,5 +96,11 @@ def contact():
     return render_template('contact.html')
 
 
+#route for social
+@app.route('/social')
+def social():
+    return render_template("social.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
