@@ -5,8 +5,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from passlib.hash import sha256_crypt
 
-engine = create_engine(
-    "postgresql+psycopg2://moringa:Access@localhost/pitches")
+engine = create_engine("postgresql+psycopg2://moringa:Access@localhost/signup")
 
 db = scoped_session(sessionmaker(bind=engine))
 app = Flask(__name__)
