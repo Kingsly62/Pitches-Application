@@ -4,7 +4,8 @@
   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
   crossorigin="anonymous"
 />
-{% extends "landing.html"%} {% block body%}
+
+{% extends "profile.html"%} {% block body%}
 <div class="container">
   <h1>Welcome User</h1>
   <form action="signin" methods="POST">
@@ -26,7 +27,9 @@
         required
       />
     </div>
-    <button class="btn btn-primary" type="submit">Submit</button>
+    <button class="btn btn-success" type="submit">
+      <a href="/profile">Signin</a>
+    </button>
   </form>
 </div>
 {% endblock %}

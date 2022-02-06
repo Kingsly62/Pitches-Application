@@ -29,7 +29,7 @@ def signin():
                 "username": username
             }).fetchone()
         passworddata = db.execute(
-            "SELECT password FROM users WHERE username:=username", {
+            "SELECT password FROM users WHERE password:=password", {
                 "password": password
             }).fetchone()
 
@@ -53,6 +53,12 @@ def signin():
 @app.route('/photo')
 def photo():
     return render_template("photo.html")
+
+
+#route for profile
+@app.route('/profile')
+def profile():
+    return render_template('profile.html')
 
 
 #register form functions,route for signup page
