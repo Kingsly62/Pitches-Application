@@ -4,6 +4,7 @@ from flask import Flask, render_template, request, session, logging, url_for, re
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from passlib.hash import sha256_crypt
+from flask_login import login_user
 
 engine = create_engine("postgresql+psycopg2://moringa:1234@localhost/signup")
 
@@ -40,8 +41,9 @@ def signin():
         else:
             for password_data in passworddata:
                 if sha256_crypt.verify(password, password_data):
+
                     flash("You are logged", "success")
-                    return redirect(url_for('photo'))
+                    return redirect(url_for('profile'))
                 else:
                     flash("Incorrect password", "danger")
                     return render_template('signin.html')

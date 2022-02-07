@@ -4,11 +4,10 @@
   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
   crossorigin="anonymous"
 />
-
-{% extends "profile.html"%} {% block body%}
+{% block body%}
 <div class="container">
   <h1>Welcome User</h1>
-  <form action="signin" methods="POST">
+  <form action="{{url_for('social')}}" methods="POST">
     <div class="form-group">
       <input
         type="text"
@@ -27,7 +26,10 @@
         required
       />
     </div>
-    <button class="btn btn-success" type="submit">Login</button>
+    <button class="btn btn-success" type="submit">
+      Login
+      <a href=""></a>
+    </button>
   </form>
 </div>
 {% endblock %}

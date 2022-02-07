@@ -3,3 +3,119 @@
     gap: 17%;
     margin-left: 7%;
 }
+
+.click-me{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: green;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/* .content{
+    display: none;
+ */
+
+
+#click{
+    display: none;
+}
+
+.click-me:hover{
+    color: 219150;
+}
+
+.content{
+    opacity: 0;
+    visibility: hidden;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.4);
+
+}
+
+.header{
+    height: 68px;
+    overflow: hidden;
+    background: #27ae69;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+
+.header h2{
+    color: white;
+    padding-left: 32px;
+    font-weight: normal;
+}
+
+.fa-times{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #e8f7fc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fa-check{
+   margin: 30px 0 0 160px;
+   font-size: 50px;
+   color: #27ae60;
+   font-weight: bold;
+   width: 80px;
+   height: 80px;
+   text-align: center;
+   padding-top: 30px;
+   border-radius: 50%;
+   box-sizing: border-box;
+   border: 2px solid #27ae60;
+}
+
+.line{
+    width: 100%;
+    bottom: 60px;
+    height: 1px;
+    background: silver;
+    position: absolute;
+
+}
+
+.close-btn{
+    position: absolute;
+    bottom: 12px;
+    right: 30px;
+    border: 1px solid #27ae60;
+    border-radius: 3px;
+    color: #27ae60;
+    padding: 8px 10px;
+    font-size: 18px;
+}
+
+.close-btn:hover{
+    background: #27ae60;
+    color: whitesmoke;
+    transition: .5s;
+}
+
+#click:checked ~ .content{
+    opacity: 1;
+    visibility: visible;
+}
+
+button[type=submit]{
+    background-color: red;
+    color: black;
+    border-radius: 5px;
+}
+
+input[type=text]{
+    color: black;
+}
