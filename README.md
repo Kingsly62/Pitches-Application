@@ -53,6 +53,8 @@ To run the application, in your terminal:
 - $ curl https://bootstrap.pypa.io/get-pip.py | python3.9
 - $ python3 main.py
 
+### Running the Application(second method)
+
 - $ export FLASK_APP=main.py
 - $ export FLASK_ENV=development
 - $ flask run
