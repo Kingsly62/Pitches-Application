@@ -98,6 +98,12 @@ def contact():
     return render_template('contact.html')
 
 
+#route for logout
+@app.route('/logout')
+def logout():
+    return redirect(url_for(''))
+
+
 #route for social
 @app.route('/social', methods=["POST", "GET"])
 def social():
