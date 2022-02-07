@@ -99,8 +99,9 @@ def contact():
 
 
 #route for social
-@app.route('/social')
+@app.route('/social', methods=["POST", "GET"])
 def social():
+
     return render_template("social.html")
 
 
