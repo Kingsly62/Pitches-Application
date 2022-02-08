@@ -4,6 +4,7 @@
   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
   crossorigin="anonymous"
 />
+<link rel="stylesheet" href="/static/css/signin.css" />
 {% block body%}
 <div class="container">
   <h1>Welcome User</h1>
@@ -26,11 +27,11 @@
         required
       />
     </div>
-    <button class="btn btn-success" type="submit">
-      Login
-      <a href=""></a>
-    </button>
+    <button class="btn btn-success" type="submit">Login</button>
   </form>
+  <div class="home">
+    <button type="back"><a href="/">Previous</a></button>
+  </div>
 </div>
 {% endblock %}
 <script
