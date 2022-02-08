@@ -4,7 +4,7 @@
 
 ### Description
 
-NewsApi is a platform that allows users to view daily news updates, from different sources such as BBC new ,Al-Jazeera news ,politics ,sports and many more
+Pitches is an application that allow new users to sign up by creating an account.Then they will be prompted to the signin page.The next will prompt user to make a comment by voting a desired person.
 
 ### User Stories
 
@@ -12,7 +12,7 @@ These are the behaviours/features that the application implements for use by a u
 
 #### As a user I would like:
 
-- To create an api website where i can log in by clicking start button.
+- To create an create an aunthentication website where i can get started by clicking start button.
 - Receiives daily news updates
 - Get more news from different countries as it updates it self.
 
