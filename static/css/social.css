@@ -138,11 +138,32 @@ button a{
     position: absolute;
 }
 
-input[type=number]{
-    width: 16%;
+input{
+    width: 50px;
+    border: none;
+    pointer-events: none;
+    margin: 0 10px;
+    font-size: 30px;
+    background: none;
+    color: #919191;
 }
 
 .voting{
     bottom: 55%;
     position: absolute;
+    border: 3px solid #303030;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    
+    background: none;
+    border: none;
+
+    margin: 10px 0;
+    padding: 0 15px;
+    cursor: pointer;
 }
