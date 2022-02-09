@@ -64,3 +64,13 @@ li i{
     font-style: italic;
     font-size: medium;
 }
+
+.fa-brands{
+    font-size: 10px;
+    color: blueviolet;
+}
+
+#contact{
+    top: 25%;
+    position: absolute;
+}
