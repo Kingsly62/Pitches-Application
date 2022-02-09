@@ -54,7 +54,7 @@ dislikebtnss.addEventListener("click", () => {
 //button on comment validation
 
 function validation(){
-    // alert("Good Job have received your comment Congrats!!");
+    alert("Good Job have received your comment Congrats!!");
 
  var comment = ""
  var name ="George"
