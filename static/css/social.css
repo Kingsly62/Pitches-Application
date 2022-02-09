@@ -118,6 +118,12 @@ button[type=submit]{
 
 input[type=text]{
     color: black;
+    background-color: white;
+    height: 20px;
+    width: 30%;
+    font-size: medium;
+    pointer-events: fill;
+    border: 2px solid black;
 }
 
 button[type=logout]{
