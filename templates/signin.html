@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="/static/css/signin.css" />
 {% block body%}
 <div class="container">
-  <h1>Welcome User</h1>
+  <h1>Welcome User{{name}}</h1>
   <form action="{{url_for('social')}}" methods="POST">
     <div class="form-group">
       <input
