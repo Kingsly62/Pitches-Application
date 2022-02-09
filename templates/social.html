@@ -59,6 +59,16 @@
           Vote for Mr.Bush as an acting Director.Vote down below.
         </p>
       </div>
+      <div class="voting">
+        <button id="likebtns">
+          <i class="fa fa-thumbs-up"></i>
+        </button>
+        <input type="number" id="inputs1" value="0" name="" />
+        <button id="dislikebtns">
+          <i class="fa fa-thumbs-down"></i>
+        </button>
+        <input type="number" id="inputs2" value="0" name="" />
+      </div>
       <div class="center">
         <input type="checkbox" id="click" />
         <label for="click" class="click-me">VOTE</label>
@@ -83,6 +93,7 @@
         <h5 class="card-title">Secretary</h5>
         <p class="card-text">Vieing for Secretary seat.</p>
       </div>
+
       <div class="center">
         <input type="checkbox" id="click" />
         <label for="click" class="click-me">VOTE</label>
@@ -112,6 +123,7 @@
   integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
   crossorigin="anonymous"
 ></script>
+
 <script>
   let likebtn = document.querySelector("#likebtn");
   let dislikebtn = document.querySelector("#dislikebtn");
@@ -127,5 +139,21 @@
   dislikebtn.addEventListener("click", () => {
     input2.value = parseInt(input1.value) + 1;
     input2.style.color = "red";
+  });
+
+  let likebtns = document.querySelector("#likebtns");
+  let dislikebtns = document.querySelector("#dislikebtns");
+
+  let inputs1 = document.querySelector("#inputs1");
+  let inputs2 = document.querySelector("#inputs2");
+
+  likebtns.addEventListener("click", () => {
+    inputs1.value = parseInt(inputs1.value) + 1;
+    inputs1.style.color = "red";
+  });
+
+  dislikebtns.addEventListener("click", () => {
+    inputs2.value = parseInt(inputs1.value) + 1;
+    inputs2.style.color = "green";
   });
 </script>
