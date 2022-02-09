@@ -1,3 +1,4 @@
+// function one
 let likebtn = document.querySelector("#likebtn");
 let dislikebtn = document.querySelector("#dislikebtn");
 
@@ -14,6 +15,8 @@ dislikebtn.addEventListener("click", () => {
   input2.style.color = "red";
 });
 
+
+// function two
 let likebtns = document.querySelector("#likebtns");
 let dislikebtns = document.querySelector("#dislikebtns");
 
@@ -30,6 +33,8 @@ dislikebtns.addEventListener("click", () => {
   inputs2.style.color = "red";
 });
 
+// functon three
+
 let likebtnss = document.querySelector("#likebtnss");
 let dislikebtnss = document.querySelector("#dislikebtnss");
 
@@ -45,3 +50,9 @@ dislikebtnss.addEventListener("click", () => {
   inputss2.value = parseInt(inputss1.value) + 1;
   inputss2.style.color = "red";
 });
+
+//button on comment validation
+
+function validation(){
+    swal("Good Job","have received your comment","Congrats!!");
+}
