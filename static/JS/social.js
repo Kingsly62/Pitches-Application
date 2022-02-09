@@ -1,0 +1,31 @@
+let likebtn = document.querySelector("#likebtn");
+let dislikebtn = document.querySelector("#dislikebtn");
+
+let input1 = document.querySelector("#input1");
+let input2 = document.querySelector("#input2");
+
+likebtn.addEventListener("click", () => {
+  input1.value = parseInt(input1.value) + 1;
+  input1.style.color = "green";
+});
+
+dislikebtn.addEventListener("click", () => {
+  input2.value = parseInt(input1.value) + 1;
+  input2.style.color = "red";
+});
+
+let likebtns = document.querySelector("#likebtns");
+let dislikebtns = document.querySelector("#dislikebtns");
+
+let inputs1 = document.querySelector("#inputs1");
+let inputs2 = document.querySelector("#inputs2");
+
+likebtns.addEventListener("click", () => {
+  inputs1.value = parseInt(inputs1.value) + 1;
+  inputs1.style.color = "red";
+});
+
+dislikebtns.addEventListener("click", () => {
+  inputs2.value = parseInt(inputs1.value) + 1;
+  inputs2.style.color = "green";
+});
