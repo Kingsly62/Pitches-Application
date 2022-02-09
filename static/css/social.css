@@ -164,6 +164,15 @@ input{
     justify-content: center;
 }
 
+.votings{
+    bottom: 35%;
+    position: absolute;
+    border: 3px solid #303030;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
 button{
     
     background: none;

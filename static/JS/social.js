@@ -22,10 +22,26 @@ let inputs2 = document.querySelector("#inputs2");
 
 likebtns.addEventListener("click", () => {
   inputs1.value = parseInt(inputs1.value) + 1;
-  inputs1.style.color = "red";
+  inputs1.style.color = "green";
 });
 
 dislikebtns.addEventListener("click", () => {
   inputs2.value = parseInt(inputs1.value) + 1;
-  inputs2.style.color = "green";
+  inputs2.style.color = "red";
+});
+
+let likebtnss = document.querySelector("#likebtnss");
+let dislikebtnss = document.querySelector("#dislikebtnss");
+
+let inputss1 = document.querySelector("#inputss1");
+let inputss2 = document.querySelector("#inputss2");
+
+likebtnss.addEventListener("click", () => {
+  inputss1.value = parseInt(inputss1.value) + 1;
+  inputss1.style.color = "green";
+});
+
+dislikebtnss.addEventListener("click", () => {
+  inputss2.value = parseInt(inputss1.value) + 1;
+  inputss2.style.color = "red";
 });
