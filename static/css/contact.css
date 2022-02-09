@@ -1,5 +1,66 @@
 .contact{
-    background-color: grey;
+    background-image: url('/static/Images/cont.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100%;
+}
+
+.footer{
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+
+.para{
+    margin-left: 3%;
+    bottom: -33%;
+    position: absolute;
+}
+
+h4{
+    color: whitesmoke;
+    text-decoration: overline;
+}
+
+.quick{
+    margin-left: 40%;
+    bottom: -27%;
+    position: absolute;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.question{
+    margin-left: 60%;
+    bottom: -27%;
+    position: absolute;
+}
+
+.question ul li i{
+    color: aliceblue;
+} 
+
+li i{
+    color: aliceblue;
+}
+
+.copy{
+    bottom:-35%;
+    position: absolute;
+    margin-left: 30%;
+    color: azure;
+    font-style: italic;
+    font-size: medium;
 }
