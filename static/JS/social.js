@@ -54,5 +54,20 @@ dislikebtnss.addEventListener("click", () => {
 //button on comment validation
 
 function validation(){
-    swal("Good Job","have received your comment","Congrats!!");
+    // alert("Good Job have received your comment Congrats!!");
+
+ var comment = ""
+ var name ="George"
+
+ var userComment = document.getElementById('comment').value;
+ var userName = document.getElementById('name').value;
+
+ if((comment==userComment)&& (userName==name)){
+     alert("Goood job")
+     
+ }else{
+     sweatAlert ("Cant be submitted empty")
+ }
+
+
 }
