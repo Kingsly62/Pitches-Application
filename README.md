@@ -63,6 +63,7 @@ To run the application, in your terminal:
 
 - Pure Python3.9
 - Flask (Python Micro framework)
+- Bootstrap Version5
 
 #### License
 
