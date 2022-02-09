@@ -138,3 +138,6 @@ button a{
     position: absolute;
 }
 
+input[type=number]{
+    width: 10%;
+}
