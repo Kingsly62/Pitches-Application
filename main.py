@@ -98,6 +98,12 @@ def contact():
     return render_template('contact.html')
 
 
+#about us route
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+
 #route for logout
 @app.route('/logout')
 def logout():
